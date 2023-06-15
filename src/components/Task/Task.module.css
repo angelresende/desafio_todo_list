@@ -1,0 +1,95 @@
+.container{
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10rem;    
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    font-size: 87.5%;
+    width: 52rem; 
+}
+
+.list {
+    width: 52rem; 
+    display: grid;
+    gap: 1rem;
+}
+  
+.task {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid ;
+    border-radius: 0.25rem;
+    border-color: var(--green-light)
+}
+
+.task input {
+    padding: 0.5rem;
+}
+
+input:checked{
+    background: var(--purple) !important;
+}
+  
+.taskComplete,
+.taskIncomplete {
+    display: flex;
+    justify-content: left;
+    width: 94%;
+    color: var(--white);
+    transition: 0.5s ease-out, color 0.5s ease-out;
+    padding: 0.25rem;   
+}
+  
+.taskComplete {
+    color: var(--white);
+    text-decoration: line-through;
+}
+  
+.complete,
+.incomplete {
+    display: flex;
+    justify-content: center;
+    padding: 0.25rem;
+    font-size: 100%;
+    border: 1px solid;
+    border-radius: 0.25rem;
+    background: var(--red);
+
+    &:focus-visible,
+    &:hover {
+        filter: brightness(1.25);
+    }
+}
+  
+ 
+.complete {
+    color: var(--white);
+    border: 1px solid;
+  
+    &:focus-visible,
+    &:hover {
+      filter: brightness(1.25);
+      border: 1px solid;
+    }
+}
+
+ 
+.delete {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    font-size: 120%;
+    border: none;
+    background: var(--red);
+    transition: background-color 0.15s, border-radius 0.15s;
+
+    &:focus-visible,
+    &:hover {
+    filter: brightness(1.25);
+        border-radius: 0.25rem;
+    }
+}

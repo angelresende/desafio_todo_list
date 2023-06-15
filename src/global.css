@@ -1,0 +1,29 @@
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --gray-100: #ebebeb;
+    --gray-300: #d8d8d8;
+    --gray-700: #495456;
+    --green: #08484C;
+    --green-light: #B0D14B;
+    --purple: #522D6D;
+    --red: #C62C46;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--green);
+    color:var(--gray-700);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, button{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
