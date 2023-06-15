@@ -10,8 +10,6 @@ Essa será uma aplicação onde o seu principal objetivo é uma pequena aplicaç
 - Remover uma tarefa
 - Marcar e desmarcar uma tarefa como concluída
 
-A seguir veremos com mais detalhes o que e como precisa ser feito 🚀
-
 ### Template da aplicação
 
 <h1 align="center">
